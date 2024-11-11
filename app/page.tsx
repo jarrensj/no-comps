@@ -1,4 +1,4 @@
-import { Instagram, Youtube, Twitch } from '@geist-ui/icons'
+import { Instagram, Twitter, Mail } from '@geist-ui/icons'
 
 export default function Home() {
   return (
@@ -38,7 +38,7 @@ export default function Home() {
       <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href=""
+          href="https://www.instagram.com/nocomps_ever/"
           target="_blank"
           rel="noopener noreferrer"
         >
@@ -47,21 +47,21 @@ export default function Home() {
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href=""
+          href="https://x.com/nocomps_ever"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Youtube size={16} />
-          YouTube
+          <Twitter size={16} />
+          Twitter
         </a>
         <a
           className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href=""
+          href="mailto:nocomps.ever@gmail.com"
           target="_blank"
           rel="noopener noreferrer"
         >
-          <Twitch size={16} />
-          Twitch
+          <Mail size={16} />
+          Email
         </a>
       </footer>
     </div>
